@@ -115,13 +115,13 @@ class TicketControl extends React.Component {
 
 }
 
-TicketControl.propTypes = {
-  mainTicketList: PropTypes.object
-};
+// TicketControl.propTypes = {
+//   mainTicketList: PropTypes.object
+// };
 
 const mapStateToProps = state => {
   return {
-    mainTicketList: state.mainTicketList,
+    // mainTicketList: state.mainTicketList,
     formVisibleOnPage: state.formVisibleOnPage
   }
 }
